@@ -87,7 +87,7 @@ function Login() {
                 {showPassword ? 'Hide Password' : 'Show Password'}
             </button>
             <button className="SignUpButton" onClick={() => { Checkpassword(); usernameValidation(); handleSubmit(); }}>Login</button>
-            <span style={{ color: "black" }} className="span-handle" > Don't have an account? <Link style={{ color: "green" }} className="nav-link active" aria-current="page" to="/signup">Sign Up</Link> </span>
+            <span style={{ color: "black" }} className="span-handle" > Don't have an account? <Link style={{ color: "white" }} className="nav-link active" aria-current="page" to="/signup">Sign Up</Link> </span>
         </form>
         </div>
         </>

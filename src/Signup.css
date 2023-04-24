@@ -154,4 +154,24 @@
 .ProfileImg{
     margin-right: 2rem;
 }
-
+@media screen and (max-width:500px) {
+    .signupcss{
+        width:20rem;
+    }
+    .logincss{
+        width: 20rem;
+        
+    }
+    .usernames{
+        width:80%;
+        margin-left: 1.5rem;
+    }
+    .ShowPasswordButton{
+        width: 80%;
+        margin-left: 1.5rem;
+    }
+    .SignUpButton{
+        width: 80%;
+        margin-left: 1.5rem;
+    }
+}
